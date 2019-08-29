@@ -11,8 +11,15 @@
 
   &__bio {
     &-twitter {
-      display: block;
-      text-decoration: underline;
+      padding: 3px;
+      margin: -3px;
+
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        background-color: $color-primary;
+        color: $color-background-primary;
+      }
     }
   }
 }

@@ -130,13 +130,6 @@ module.exports = {
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-netlify',
-    {
-      resolve: 'gatsby-plugin-netlify-cms',
-      options: {
-        modulePath: `${__dirname}/src/cms/index.js`,
-      }
-    },
     {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
@@ -183,10 +176,11 @@ module.exports = {
         name: siteConfig.title,
         short_name: siteConfig.title,
         start_url: '/',
-        background_color: '#FFF',
+        //background_color: '#FFF',
+        background_color: '#262626',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.jpg'
+        icon: 'static/photo.png'
       },
     },
     'gatsby-plugin-offline',

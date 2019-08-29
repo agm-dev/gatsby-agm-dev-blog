@@ -4,6 +4,8 @@
 .feed {
   &__item {
     @include margin-bottom(1.25);
+    background-color: $color-background-secondary;
+    padding: 10px;
 
     &:last-child {
       @include margin-bottom(.5);

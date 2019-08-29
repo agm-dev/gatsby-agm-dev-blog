@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://agm-dev.ninja',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Adrián Gonzalo | Full Stack Developer',
+  subtitle: 'Javascript Full Stack Developer',
+  copyright: '©2019 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-61148321-4',
   useKatex: false,
   menu: [
     {
@@ -18,26 +18,22 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Adrián Gonzalo',
+    photo: '/profile002.jpg',
+    bio: 'Javascript Full Stack Developer',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'the.real.agm.dev@gmail.com',
+      facebook: '',
+      telegram: 'adriangm',
+      twitter: 'agm_dev',
+      github: 'agm-dev',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'adriangonzalo',
+      instagram: 'agmdev',
       line: '',
       gitlab: '',
       weibo: ''

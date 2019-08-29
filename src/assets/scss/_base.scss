@@ -2,3 +2,8 @@
 
 @import "normalize-scss";
 @import "base/generic";
+@import "_variables";
+
+html {
+  background-color: $color-background-primary;
+}

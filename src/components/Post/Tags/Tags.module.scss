@@ -22,10 +22,12 @@
         text-decoration: none;
         border-radius: $button-border-radius;
         color: $color-base;
+        background-color: $color-background-secondary;
 
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: $color-background-primary;
+          background-color: $color-primary;
         }
 
       }

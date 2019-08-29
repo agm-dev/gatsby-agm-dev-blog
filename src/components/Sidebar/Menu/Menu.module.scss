@@ -18,11 +18,14 @@
         color: $typographic-base-font-color;
         font-weight: normal;
         border: 0;
+        padding: 3px;
+        margin: -3px;
 
         &:hover,
         &:focus {
-          color: $color-primary;
-          border-bottom: 1px solid $color-primary;
+          text-decoration: none;
+          background-color: $color-primary;
+          color: $color-background-primary;
         }
 
         &--active {
